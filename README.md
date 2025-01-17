@@ -1,16 +1,19 @@
-# comfyui_better_aspect_ratio
-I made some minor changes to the already existing aspect ratio node from maassao000. -> [link](https://github.com/massao000/ComfyUI_aspect_ratios/tree/main
+# ComfyUI Better Aspect Ratio
 
-![image](img1.png)
+This is a minor improvement to the existing aspect ratio node by [massao000](https://github.com/massao000/ComfyUI_aspect_ratios/tree/main).
 
-# Changes
+![Aspect Ratio Node Screenshot](img1.png)
 
-The only truly notible changes are the adittion of 2 more return values.
+## Changes
 
-- `width` and `height`
+The main changes in this version include:
 
-I also changed the positions of `aspect_ratios` and `standard`, as i found the initial order a bit unintuitive.
+- **Addition of Two New Return Values:**  
+  `width` and `height` are now added as return values.
+  
+- **Reordering of Inputs:**  
+  The positions of `aspect_ratios` and `standard` inputs were adjusted for better intuitiveness compared to the original order.
 
-# Usage
+## Usage
 
-As there are no actual changes in the way this node works or is set up, please refer to the original Documentation found [here](https://github.com/massao000/ComfyUI_aspect_ratios/blob/main/README.md#Usage).
+Since the changes are minimal, please refer to the [original documentation](https://github.com/massao000/ComfyUI_aspect_ratios/blob/main/README.md#Usage) for detailed instructions on using the node.
